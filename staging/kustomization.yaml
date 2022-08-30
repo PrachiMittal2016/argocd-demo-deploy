@@ -7,6 +7,6 @@ patchesStrategicMerge:
 
 images:
 - name: prachimittal2016/argocd-demo
-  newTag: "2"
+  newTag: 2215530bf3867f58b5c18ba7b18e8b7fd8cc1ede
 resources:
 - ../base
