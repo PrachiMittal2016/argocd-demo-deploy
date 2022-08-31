@@ -3,7 +3,7 @@ kind: Kustomization
 namespace: argocd-demo-staging
 resources:
 - ../base
-- argocd-staging-ns.yaml
+- ./argocd-staging-ns.yaml
 
 patchesStrategicMerge:
 - ./deployment-patch.yaml
