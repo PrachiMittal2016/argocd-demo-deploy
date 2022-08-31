@@ -1,4 +1,0 @@
-namespace: argocd-demo-staging
-resources:
-- deployment.yaml
-- service.yaml
