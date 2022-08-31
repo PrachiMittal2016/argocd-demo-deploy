@@ -1,6 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-
+namespace: argocd-demo-staging
+resources:
+- ../base
+- argocd-staging-ns.yaml
 
 patchesStrategicMerge:
 - ./deployment-patch.yaml
@@ -8,5 +11,3 @@ patchesStrategicMerge:
 images:
 - name: prachimittal2016/argocd-demo
   newTag: 2215530bf3867f58b5c18ba7b18e8b7fd8cc1ede
-resources:
-- ../base
