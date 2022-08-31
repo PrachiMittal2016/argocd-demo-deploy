@@ -11,4 +11,4 @@ images:
 - name: prachimittal2016/argocd-demo
   newTag: 103bd83965e513965bb9e0c1998e26ec92260b69
 resources:
-- ../base
+- ../../base
