@@ -6,8 +6,6 @@ patchesStrategicMerge:
 - ./deployment-patch.yaml
 
 images:
-- name: docker.io/prachimittal2016/argocd-demo
-  newTag: "1"
 - name: prachimittal2016/argocd-demo
   newTag: 405d7cbce9125ce8a1633daed26b4acd681287f7
 resources:
