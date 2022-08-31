@@ -6,7 +6,6 @@ spec:
   template:
     spec:
       containers:
-      - image: docker.io/prachimittal2016/argocd-demo:1
-        name: demo
+      - name: demo
         ports:
         - containerPort: 8080
