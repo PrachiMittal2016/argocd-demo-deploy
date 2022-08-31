@@ -6,7 +6,7 @@ spec:
   template:
     spec:
       containers:
-      - name: demo
-        env:
-        - name: ENVIRONMENT
-          value: staging
+      - image: prachimittal2016/argocd-demo:1
+        name: demo
+        ports:
+        - containerPort: 8080
