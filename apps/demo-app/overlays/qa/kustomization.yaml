@@ -10,4 +10,3 @@ images:
   newTag: 5495cde8dac3cd005af27835c8b991e07fccb753
 resources:
 - ../../base
-- ./namespace.yaml
