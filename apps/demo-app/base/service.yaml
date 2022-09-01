@@ -4,6 +4,7 @@ kind: Service
 metadata:
   name: demo
 spec:
+  hostname: 192.168.59.108
   ports:
   - port: 80
     protocol: TCP
