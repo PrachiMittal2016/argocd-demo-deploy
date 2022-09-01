@@ -10,3 +10,4 @@ images:
   newTag: e305c877ef4419ef84aa7bfb7caabde7fbdf0154
 resources:
 - ../../base
+- ./ingress.yaml
