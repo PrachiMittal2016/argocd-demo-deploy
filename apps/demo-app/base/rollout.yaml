@@ -12,8 +12,8 @@ spec:
       app: demo
   strategy:
     blueGreen:
-      activeService:
-      previewService:
+      activeService: demo-active
+      previewService: demo-preview
       autoPromotionEnabled: false 
   template:
     metadata:
