@@ -3,7 +3,7 @@ kind: Kustomization
 
 
 patchesStrategicMerge:
-- ./deployment-patch.yaml
+- ./rollout-patch.yaml
 
 images:
 - name: prachimittal2016/argocd-demo
