@@ -7,3 +7,4 @@ spec:
     spec:
       containers:
       - name: demo
+        image: prachimittal2016/argocd-demo:2
