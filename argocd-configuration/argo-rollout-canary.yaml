@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: argo-rollout-canary
+  namespace: argocd
+spec:
+  destination:
+    namespace: argo-rollout-canary
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    path: canary
+    repoURL: https://github.com/PrachiMittal2016/argo_rollouts
+    targetRevision: main
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+    - CreateNamespace=true
