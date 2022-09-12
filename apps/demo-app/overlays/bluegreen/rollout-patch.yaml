@@ -1,0 +1,12 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Rollout
+metadata:
+  name: demo
+spec:
+  template:
+    spec:
+      containers:
+      - name: demo
+        image: prachimittal2016/argocd-demo:2
+        ports:
+        - containerPort: 8080
