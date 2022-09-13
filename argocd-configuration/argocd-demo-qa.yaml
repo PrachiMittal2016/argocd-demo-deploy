@@ -13,8 +13,5 @@ spec:
     repoURL: https://github.com/PrachiMittal2016/argocd-demo-deploy
     targetRevision: main
   syncPolicy:
-    automated:
-      prune: true
-      selfHeal: true
     syncOptions:
     - CreateNamespace=true
