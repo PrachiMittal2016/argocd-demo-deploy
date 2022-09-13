@@ -7,7 +7,7 @@ patchesStrategicMerge:
 
 images:
 - name: prachimittal2016/argocd-demo
-  newTag: 435e5468c6fcfdd3b03b21321f69f4000ad72a09
+  newTag: "7"
 resources:
 - ../../base
 - ./ingress.yaml
